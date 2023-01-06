@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+  background-color: #ccc;
+  font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: rgb(168, 42, 42); 
+}
+#add{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+    background: green;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+font-weight: bold;
+}
+#add:active{
+    background: blue;
+    color: wheat;
+
+}
+
+#clear{   height: 45px;
+    width: 100px;
+    border: 1px solid black;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+    background: red;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+#clear:active{
+    background: black;
+}
+ .paragraph-stil{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: red;
+    text-transform: capitalize;
+
+}
+.to-dost{
+    margin-top: 10px;
+}
